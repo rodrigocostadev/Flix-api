@@ -1,1 +1,16 @@
-teste
+Admin: rodrigo.costa
+senha: senhafacil
+
+
+//////////////////////////////////////////////////////////////////////////
+POSTMAN:
+Ao testar as requisições no postman, escolher o método de requisição 
+clicar em Body, depois em raw, e ao lado de GraphQL escolher JSON.
+
+se for preciso colocar as informações a serem criadasou atualizadas em Body
+//////////////////////////////////////////////////////////////////////////
+
+
+//////////////////////////////////////////////////////////////////////////
+INSTALAR O DJANGO REST FRAMEWORK:
+pip install djangorestframework
