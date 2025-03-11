@@ -8,7 +8,7 @@
 # from django.views.decorators.csrf import csrf_exempt # É comocado para não dar erro no envio do método POST
 
 from genres.models import Genre
-from rest_framework import generics # SEGURAR O CONTROL E CLICAR EM GENERICS PARA VER AS CLASSES PARA FAZER AS REQUISIÇÕES
+from rest_framework import generics # SEGURAR O CONTROL E CLICAR EM GENERICS PARA VER AS CLASSES PARA FAZER AS REQUISIÇÕES, ou ir na pasta venv/lib/sitepakages/rest_framework/generics
 from genres.serializers import GenreSerializer
 
 # ////////////////////////////////////////////////////////
