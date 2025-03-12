@@ -30,6 +30,8 @@ INSTALLED_APPS = [
     
     'genres',
     'actors',
+    'movies',
+    'reviews',
     'rest_framework',
 ]
 
