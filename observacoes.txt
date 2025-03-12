@@ -1,6 +1,8 @@
 Admin: rodrigo.costa
 senha: senhafacil
 
+Serializer: Valida, Serializa, Calcula e faz Estruturação
+
 
 //////////////////////////////////////////////////////////////////////////
 POSTMAN:
