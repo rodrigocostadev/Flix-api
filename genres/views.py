@@ -9,6 +9,7 @@
 
 from genres.models import Genre
 from rest_framework import generics # SEGURAR O CONTROL E CLICAR EM GENERICS PARA VER AS CLASSES PARA FAZER AS REQUISIÇÕES, ou ir na pasta venv/lib/sitepakages/rest_framework/generics
+from rest_framework.permissions import IsAuthenticated
 from genres.serializers import GenreSerializer
 
 # ////////////////////////////////////////////////////////
@@ -16,11 +17,13 @@ from genres.serializers import GenreSerializer
 
 # Lista e cria dados da API
 class GenreCreateListView(generics.ListCreateAPIView):
+    permission_classes = (IsAuthenticated,)
     queryset = Genre.objects.all()
     serializer_class = GenreSerializer
     
     
 class GenreRetrieveUpdateDestroyView(generics.RetrieveUpdateDestroyAPIView): # Pega (Retrieve = pega), faz Update e Deleta (Destroy)
+    permission_classes = (IsAuthenticated,)
     queryset = Genre.objects.all()
     serializer_class = GenreSerializer
     
